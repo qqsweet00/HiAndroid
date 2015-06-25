@@ -9,27 +9,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView" />
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="133dp"
-        android:id="@+id/">
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton"
-            android:layout_gravity="left|center_vertical" />
-
-        <SurfaceView
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:id="@+id/surfaceView"
-            android:layout_gravity="center" />
-    </FrameLayout>
-
     <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
